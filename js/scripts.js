@@ -20,6 +20,7 @@ function pFunk(feelIt) {
   .replace(/mouseIsPressed\(\)/g, "mousePressed()")
   .replace(/frameRate/g, "frameRate()")
   ;
+  str1 += "\n//Free your mind and your ass will follow - George Clinton";
 
   document.getElementById("output").value = str1;
 }
