@@ -19,6 +19,7 @@ function pFunk(feelIt) {
   .replace(/mousePressed/g, "mouseIsPressed")
   .replace(/mouseIsPressed\(\)/g, "mousePressed()")
   .replace(/frameRate/g, "frameRate()")
+  .replace(/myVar/g, "mothership_connection")
   ;
   str1 += "\n//Free your mind and your ass will follow - George Clinton";
 
