@@ -1,4 +1,4 @@
-function myFunction() {
+function pFunk(feelIt) {
   var str = document.getElementById("input").value;
   var str1 = str.replace(/new float\[(\w+)]/g, "new Array($1)")
   .replace(/new float \[(\w+)]/g, "new Array($1)")
