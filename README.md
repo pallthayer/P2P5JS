@@ -1,2 +1,2 @@
 # Processing-to-p5.js-converter
-Does what it says. Need more here later. 
+Attempts to do what it says... Funks up your Processing code to work in P5.js.
